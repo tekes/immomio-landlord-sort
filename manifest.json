@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Immomio – Anbieter sortieren & filtern",
+  "version": "0.1.0",
+  "description": "Sort, filter and load-all for the Immomio landlord overview",
+  "homepage_url": "https://github.com/tekes/immomio-landlord-sort",
+  "content_scripts": [
+    {
+      "matches": ["https://tenant.immomio.com/*"],
+      "js": ["immomio-landlord-sort.user.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
