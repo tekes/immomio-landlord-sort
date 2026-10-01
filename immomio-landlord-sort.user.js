@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Immomio – Anbieter sortieren & filtern
 // @namespace    https://github.com/tekes/immomio-landlord-sort
-// @version      0.1.0
+// @version      0.1.1
 // @description  Sort, filter and "load all" for the Immomio landlord overview
 // @author       Sahin Tekes
 // @license      MIT

@@ -1,7 +1,7 @@
 # Immomio – Anbieter sortieren & filtern
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.1.1-green.svg)](CHANGELOG.md)
 [![Userscript installieren](https://img.shields.io/badge/Userscript-installieren-orange.svg)](https://raw.githubusercontent.com/tekes/immomio-landlord-sort/main/immomio-landlord-sort.user.js)
 
 Aktuell nutze ich Immomio als zusätzlichen Kanal für die Wohnungssuche und das Portal funktioniert grundsätzlich gut, auch wenn es hier und da Schwächen beim Speichern und Abrufen der Daten gibt. Allerdings nervt es mich sehr, dass die Seite keine Such- und Filteroptionen anbietet. Immer wenn ich die Seite besuche, muss ich lange scrollen und am Ende die Browser-Suchfunktion nutzen, um den gesuchten Anbieter zu finden.

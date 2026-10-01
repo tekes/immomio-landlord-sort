@@ -2,6 +2,14 @@
 
 Alle nennenswerten Änderungen an diesem Projekt. Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/), Versionierung nach [SemVer](https://semver.org/lang/de/).
 
+## [0.1.1] – 2026-10-01
+
+### Geändert
+- Guard-Bedingungen beim automatischen Laden aufgeteilt (keine funktionale Änderung)
+
+### Behoben
+- „Alle anzeigen“ meldet in der Konsole einen Fehler, wenn nicht alle Seiten geladen werden konnten
+
 ## [0.1.0] – 2026-09-30
 
 Erste öffentliche Version.
