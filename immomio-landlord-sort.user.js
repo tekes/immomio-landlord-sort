@@ -629,8 +629,19 @@
 
     // the list element is recreated on navigation, so the flag resets automatically
     #autoLoadOnce(list) {
-      const alreadyLoaded = list.dataset.autoLoaded === "true";
-      if (!this.#settings.isAutoLoadEnabled() || alreadyLoaded || this.#loader.isLoading() || !this.#pagination.hasMore()) {
+      if (!this.#settings.isAutoLoadEnabled()) {
+        return;
+      }
+
+      if (list.dataset.autoLoaded === "true") {
+        return;
+      }
+
+      if (this.#loader.isLoading()) {
+        return;
+      }
+
+      if (!this.#pagination.hasMore()) {
         return;
       }
 
