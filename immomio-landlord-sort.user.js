@@ -411,6 +411,13 @@
             break;
           }
         }
+
+        if (this.#pagination.hasMore()) {
+          console.error("immomio-landlord-sort: could not load all landlords (timeout or no new cards)", {
+            loaded: LandlordCard.countOnPage(),
+            total: this.#pagination.getTotal()
+          });
+        }
       } finally {
         this.#setLoading(false);
       }
